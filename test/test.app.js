@@ -1,7 +1,6 @@
 import axios from 'axios';
 import * as ResponseCheck from './../app.js';
 
-
 function AxiosGet() {
   axios.get('https://api.github.com/users/melwinalm/repos')
     .then(response => {

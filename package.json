@@ -1,12 +1,23 @@
 {
   "name": "response-check",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "A library to validate JSON data based on a given data structure",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melwinalm/response-check.git"
+  },
+  "keywords": [
+    "json",
+    "validation"
+  ],
   "author": "Melwin Amith D'Almeida",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melwinalm/response-check/issues"
+  },
+  "homepage": "https://github.com/melwinalm/response-check#readme"
 }
